@@ -170,7 +170,22 @@ A lookup table is normally a table that acts as a "master list" for something an
 
 ## Cardinality
 
+- 1 -> 1
+- 1 -> m
+- m -> n
 
+---
+
+## Modality
+
+> Modality is basically wheter or not the child is required.
+
+- 1 -> 1 (optional)
+- 1 -> 1 (mandatory)
+- 1 -> m (optional)
+- 1 -> m (mandatory)
+- m -> n (optional)
+- m -> n (mandatory)
 
 ---
 
